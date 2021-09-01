@@ -101,17 +101,38 @@
 #headerSec li{
     font-family: 'Jost', sans-serif;
     font-size: 18px;
-    padding: 0px 35px;
-    
+    padding: 0px 35px;   
 }
 #headerSec li a{
     color: #000;
+}
+.hero-p{
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 #headerSec li a.active, #headerSec li a:hover, #headerSec li a:focus{
     color: #128347;
 }
 /* end of Navbar */
 /* solutionsec */
+.z-index900{
+    z-index: 900;
+    position: absolute;
+    left:0;
+    top: 182px;
+    padding-left: 110px;
+    border-radius: .5em;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.bg-opacity-75 {
+    --bs-bg-opacity: 0.75;
+}
+.z-index100{
+    z-index: 100;
+    margin-top: 20px;
+}
 #solutionSec{
     margin-top: 115px;
 }
@@ -152,22 +173,48 @@
 .btn-success {
     background-color: #46A55C;
 }
-#ourSolution{
+#solution{
     background: url('../images/solutionbg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
+
 #ourSol{
-    padding-top: 115px;
-    margin-bottom: 120px;
+    padding-top: 17px;
+    margin-bottom: 80px;
 }
-#solBG p{
+#solution p{
     margin-bottom: 2rem;
+    font-family: 'Jost-SemiBold', sans-serif;
+
 }
 .bigFont{
     font-size:25px;
     color: #46A55C;
 }
 /* end of solutionsec */
+/* how it works */
+#simple{
+    background: url('../images/simple-steps.jpg ');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 45px;
+}
+#simple h1{
+    padding-top: 115px;
+    margin-bottom: 80px;
+}
+.sec2{
+    margin-top: 35px;
+}
+.lastCircle{
+    background-color: white;
+    border-radius: 50%;
+}
+.lastCircle h4{
+    padding-bottom: 30px;
+}
+/* end how it works */
