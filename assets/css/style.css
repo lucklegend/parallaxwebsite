@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Avenir-Black';
+    src: url('../fonts/AvenirLTStd-Black.eot');
+    src: url('../fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTStd-Black.woff2') format('woff2'),
+        url('../fonts/AvenirLTStd-Black.woff') format('woff'),
+        url('../fonts/AvenirLTStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir-Roman';
+    src: url('../fonts/AvenirLTStd-Roman.eot');
+    src: url('../fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTStd-Roman.woff2') format('woff2'),
+        url('../fonts/AvenirLTStd-Roman.woff') format('woff'),
+        url('../fonts/AvenirLTStd-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-Black';
+    src: url('../fonts/Jost-Black.eot');
+    src: url('../fonts/Jost-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Jost-Black.woff2') format('woff2'),
+        url('../fonts/Jost-Black.woff') format('woff'),
+        url('../fonts/Jost-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-Bold';
+    src: url('../fonts/Jost-Bold.eot');
+    src: url('../fonts/Jost-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Jost-Bold.woff2') format('woff2'),
+        url('../fonts/Jost-Bold.woff') format('woff'),
+        url('../fonts/Jost-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-SemiBold';
+    src: url('../fonts/Jost-SemiBold.eot');
+    src: url('../fonts/Jost-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Jost-SemiBold.woff2') format('woff2'),
+        url('../fonts/Jost-SemiBold.woff') format('woff'),
+        url('../fonts/Jost-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url('../fonts/Jost-Regular.eot');
+    src: url('../fonts/Jost-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Jost-Regular.woff2') format('woff2'),
+        url('../fonts/Jost-Regular.woff') format('woff'),
+        url('../fonts/Jost-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Font Settings */
+.fontAvenBlack{
+    font-family: 'Avenir-Black', sans-serif;
+}
+.fontAvenRoman{
+    font-family: 'Avenir-Roman', sans-serif;
+}
+.fontJostBlack{
+    font-family: 'Jost-Black', sans-serif;
+}
+.fontJostBold{
+    font-family: 'Jost-Bold', sans-serif;
+}
+.fontJostSemi{
+    font-family: 'Jost-SemiBold', sans-serif;
+}
+.fontJost{
+    font-family: 'Jost', sans-serif;
+}
+.line66{
+    line-height: 66px;
+}
+/* Navbar */
+#headerSec{
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    z-index: 1000;
+}
+#headerSec li{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    padding: 0px 35px;
+    
+}
+#headerSec li a{
+    color: #000;
+}
+#headerSec li a.active, #headerSec li a:hover, #headerSec li a:focus{
+    color: #128347;
+}
+/* end of Navbar */
+/* solutionsec */
+#solutionSec{
+    margin-top: 115px;
+}
+#heroImage{
+    background: url('../images/Hero_image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border-radius: 1em;
+}
+#solModBox{
+    width: 910px;
+    height: 558px;
+    border-radius: .5em;
+    position: absolute;
+    top: 190px;
+    left: 0px;
+}
+#solModBox h1{
+    margin-top: 60px;
+    text-align: left;
+    margin-left: 120px;
+}
+#solModBox p{
+    margin-top: 20px;
+    margin-left: 120px;
+    text-align: left;
+    width: 50%;
+}
+#solModBox a.btn{
+    margin-top: 20px;
+    margin-left: 120px;
+    text-align: left;
+    font-family: 'Avenir-Roman', sans-serif;
+    font-weight: 300;
+}
+.btn-success {
+    background-color: #46A55C;
+}
+#ourSolution{
+    background: url('../images/solutionbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+#ourSol{
+    padding-top: 115px;
+    margin-bottom: 120px;
+}
+#solBG p{
+    margin-bottom: 2rem;
+}
+.bigFont{
+    font-size:25px;
+    color: #46A55C;
+}
+/* end of solutionsec */
