@@ -198,14 +198,14 @@
 /* how it works */
 #simple{
     background: url('../images/simple-steps.jpg ');
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 45px;
+    padding-bottom: 85px;
 }
 #simple h1{
     padding-top: 115px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .sec2{
     margin-top: 35px;
@@ -217,4 +217,133 @@
 .lastCircle h4{
     padding-bottom: 30px;
 }
+
+#why{
+    background: url('../images/BgWhyUs@1x.jpg ');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 245px;
+}
+#why h4{
+    padding: 0px 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+#why p{
+    padding: 0px 40px;
+    font-family: 'Jost', sans-serif;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+.colorWhite{
+    color: white!important;
+}
 /* end how it works */
+#expertise{
+    margin-top:-200px;
+}
+.greenBox{
+    background-color: #128347;
+    border-radius: .5em;
+    padding: 55px 0px;
+}
+.greenBox h1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.greenBox h4{
+    padding: 0px 100px;
+    margin-bottom: 30px;
+}
+#about{
+    background: url('../images/bgAboutUs@2x.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 305px;
+}
+#about h1{
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+#about h4{
+    margin-bottom: 25px;
+}
+#contact{
+    background-color: #065028;
+}
+#contact h1{
+    margin:35px 0px;
+}
+#contact h4{
+    margin-top:10px;
+    margin-bottom: 50px;
+}
+.contacttextbox{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    color: white!important;
+}
+span.contacttextbox{
+    color:#5FCE79!important;
+}
+.contacttextbox:active, .contacttextbox:focus{
+    background: transparent;
+}
+input::placeholder {
+    color: #fff;
+  }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+.marginbot100{
+    margin-bottom: 100px;
+}
+.marginbot100 button{
+    padding:7px 35px;
+}
+.darkgreen{
+    background-color: #03411b;
+    border-radius: .5em;
+    padding: 36px 0px 20px 0px;
+}
+.darkgreen p{
+    line-height: 32px;
+}
+.spaceBond{
+    height: 50px;
+}
+.ligthGreen{
+    color:#54bd6e;
+}
+
+/* mobile integration */
+@media screen and (max-width: 768px) {
+    .z-index900 {
+        position: inherit;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .z-index900 h1{
+        font-size: 26px;
+        line-height: 42px!important;
+        padding: 5px 10px;
+    }
+    .greenBox h4 {
+        padding: 0px 10px;
+        margin-bottom: 30px;
+    }
+  }
