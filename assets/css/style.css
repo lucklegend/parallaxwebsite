@@ -109,6 +109,8 @@
 .hero-p{
     margin-top: 30px;
     margin-bottom: 40px;
+    font-size: 20px;
+    width: 80%;
 }
 #headerSec li a.active, #headerSec li a:hover, #headerSec li a:focus{
     color: #128347;
@@ -188,17 +190,19 @@
 #solution p{
     margin-bottom: 2rem;
     font-family: 'Jost-SemiBold', sans-serif;
-
+    font-size: 1.5em;
+    padding-left: 30px;
 }
 .bigFont{
     font-size:25px;
     color: #46A55C;
+    float: left;
 }
 /* end of solutionsec */
 /* how it works */
 #simple{
     background: url('../images/simple-steps.jpg ');
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 85px;
@@ -338,10 +342,57 @@ input::placeholder {
 }
 
 /* mobile integration */
+@media screen and (max-width: 1367px) {
+    #why p{
+        font-size: 18px;
+    }
+    #why h4{
+        font-size: 1.25em;
+    }
+    .hero-p{
+        width: 90%;
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .z-index100 {
+        margin-top: 0px;
+    }
+    .hero h1 {
+        font-size: 2.5em;
+    }
+    .z-index900 {
+        top: 190px;
+        padding-top: 40px;
+        padding-bottom: 35px;
+    }
+    .values .box {
+        padding: 8px;
+    }
+    #simple h1 {
+        padding-top: 75px;
+    }
+    #solution p {
+        font-size: 1.25em;
+    }
+    .h4, h4 {
+        font-size: 1.25rem;
+    }
+    #simple {
+        padding-bottom: 50px;
+    }
+    .sec3{
+        margin-top: 25px;
+    }
+    .line66 {
+        line-height: 55px;
+    }
+}
 @media screen and (max-width: 768px) {
     .z-index900 {
         position: inherit;
         padding-left: 0px;
+        padding-right:10px;
         padding-top: 0px;
     }
     .z-index900 h1{
@@ -358,5 +409,9 @@ input::placeholder {
     }
     #lastSimple{
         padding: 0px 25px;
+    }
+    .hero-p{
+        width: 100%;
+        padding-left: 10px;
     }
   }
