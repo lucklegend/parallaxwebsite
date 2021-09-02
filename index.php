@@ -305,7 +305,7 @@
                 <input type="text" name="message" class="form-control contacttextbox" placeholder="Message" aria-label="Message" aria-describedby="basic-addon1">
               </div>
               <!-- <div class="g-recaptcha" data-sitekey="6LeKgj0cAAAAAKmgBwUOkmKiXbHrpCZ4JO5ERYI1"> </div> jade-company--> 
-              <div class="g-recaptcha" data-sitekey="6LdThT0cAAAAAIqFgDTTYj_OQx4PYL-ARTdicinQ"> </div>
+              <div class="g-recaptcha" data-sitekey="sitekey here"> </div>
               <br>
               <div class="input-group mb-5 marginbot100">
                 <button type="submit" name="submit" class="btn btn-success">SUBMIT</button>
