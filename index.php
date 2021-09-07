@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Welcome to Jade & Co. - Expertise in manufacturing process in plastic industry</title>
-  <meta  name="description" content="Expertise in manufacturing process in plastic industry. Since 2005, we have been dedicated to provide turnkey solutions for manufacturing in China & Vietnam">
+  <title>Jade & Co. : Contract Manufacturing Solution in China</title>
+  <meta  name="description" content="Engineering & Mass Customized Manufacturing Solutions for Innovative Brands, OEM & ODM">
 
   <meta name="keywords" content="" >
   <meta property="og:title" content="Welcome to Jade & Co. - Expertise in manufacturing process in plastic industry" />
@@ -42,7 +42,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="/" class="logo d-flex align-items-center">
-        <img src="assets/images/Logo.png" alt="">
+        <img src="assets/images/Logo@1x.svg" alt="">
       </a>
 
       <nav id="navbar" class="navbar">
@@ -60,11 +60,10 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
-
+  <section id="hero" class="hero align-items-center" data-aos="zoom-out" data-aos-delay="200">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center z-index900" data-aos="zoom-out" data-aos-delay="200">
+        <div class="col-lg-6 d-flex flex-column justify-content-center z-index900" >
           <h1 data-aos="fade-up" class="fontJostSemi line66">Engineering & Mass Customized Manufacturing Solutions for Innovative Brands, OEM & ODM.</h1>
           <p data-aos="fade-up" data-aos-delay="400" class="fontAvenRoman hero-p">We support innovative companies to design, engineer & manufacture commercially viable products that are durable, functional, and meet market demands. </p>
           <div data-aos="fade-up" data-aos-delay="600">
@@ -76,49 +75,47 @@
           </div>
         </div>
         <div class="col-lg-10 offset-lg-2 hero-img z-index100" data-aos="zoom-out" data-aos-delay="400">
-          <img src="assets/images/Hero_image.png" class="img-fluid" alt="hero images">
+         
         </div>
       </div>
     </div>
-
   </section><!-- End Hero -->
 
   <main id="main">
     <!-- ======= Solution Section ======= -->
-    <section id="solution" class="about">
-
+    <section id="solution" class="about" data-aos="fade-up" data-aos-delay="200">
       <div class="container" data-aos="fade-up">
         <div class="row gx-0">
           <h1 class="text-center fontJostSemi" id="ourSol" data-aos="fade-up" data-aos-delay="200">Our Solutions</h1>
           <div class="col-lg-4 offset-lg-2" data-aos="fade-up" data-aos-delay="200">
             <div class="text-left">
-              <i class="fas fa-times bigFont"></i>
+              <i class="fas fa-check bigFont"></i>
               <p>Design for Manufacturing </p>
             </div>
             <div class="text-left">
-              <i class="fas fa-times bigFont"></i>
+              <i class="fas fa-check bigFont"></i>
               <p>Prototyping</p>
             </div>
             <div class="text-left">
-              <i class="fas fa-times bigFont"></i>
+              <i class="fas fa-check bigFont"></i>
               <p>Cost Reduction Optimization</p>
             </div>
             <div class="text-left">
-              <i class="fas fa-times bigFont"></i>
+              <i class="fas fa-check bigFont"></i>
               <p>Design for Manufacturing</p>
             </div>
           </div>
           <div class="col-lg-4 offset-lg-1" data-aos="fade-up" data-aos-delay="300">
             <div class="text-left">
-                <i class="fas fa-times bigFont"></i>
+                <i class="fas fa-check bigFont"></i>
                 <p>Management of New Product Introduction (NPI)</p>
             </div>
             <div class="text-left">
-              <i class="fas fa-times bigFont"></i>
+              <i class="fas fa-check bigFont"></i>
               <p>CTQ Documentation </p>
             </div>
             <div class="text-left">
-              <i class="fas fa-times bigFont"></i>
+              <i class="fas fa-check bigFont"></i>
               <p>Manufacturing with Full Scalability </p>
             </div>
           </div>
@@ -212,7 +209,7 @@
             <div class="box colorWhite text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
               <img src="assets/images/icon1@1x.svg" class="img-fluid" alt="">
               <div>
-                <h4 class="fontJostBold">Manufacturing Scalability & Innovation Flexibility</h4>
+                <h4 class="fontJostSemi">Manufacturing Scalability & Innovation Flexibility</h4>
                 <p>Manufacturing scalability of a Large enterprise with the flexibility of a Medium Size enterprise</p>
               </div>
             </div>
@@ -222,7 +219,7 @@
             <div class="box colorWhite text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
               <img src="assets/images/icon2@1x.svg" class="img-fluid" alt="">
               <div>
-                <h4 class="fontJostBold">Efficient Execution System and State-of-the-Art IT System </h4>
+                <h4 class="fontJostSemi">Efficient Execution System and State-of-the-Art IT System </h4>
                 <p>High Level of control, automation, and real-time information</p>
               </div>
             </div>
@@ -232,7 +229,7 @@
             <div class="box colorWhite text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
               <img src="assets/images/icon3@1x.svg" class="img-fluid" alt="">
               <div>
-                <h4 class="fontJostBold">Vertically Integrated</h4>
+                <h4 class="fontJostSemi">Vertically Integrated</h4>
                 <br/>
                 <p>Assembly Integration with In-House Components Manufacturing for cost & quality control with our trust manufacturing partner</p>
               </div>
@@ -260,7 +257,7 @@
     <section id="about" class="features">
       <div class="container" data-aos="fade-up">
         <div class="row">
-          <div class="col-lg-6 offset-lg-3 col-sm-12 text-center" data-aos="zoom-out" data-aos-delay="200">
+          <div class="col-lg-6 offset-lg-3 col-sm-12 text-left" data-aos="zoom-out" data-aos-delay="200">
             <h1 class="fontJostSemi">About Us</h1>
             <h4 class="fontJostSemi">Since 2005, we provide innovatives brands manufacturing solutions for mass customized durable goods in Asia. </h4>
           </div>
@@ -304,8 +301,8 @@
                 </span>
                 <input type="text" name="message" class="form-control contacttextbox" placeholder="Message" aria-label="Message" aria-describedby="basic-addon1">
               </div>
-              <!-- <div class="g-recaptcha" data-sitekey="6LeKgj0cAAAAAKmgBwUOkmKiXbHrpCZ4JO5ERYI1"> </div> jade-company--> 
-              <div class="g-recaptcha" data-sitekey="sitekey here"> </div>
+              
+              <div class="g-recaptcha" data-sitekey="yoursitekeys"> </div>
               <br>
               <div class="input-group mb-5 marginbot100">
                 <button type="submit" name="submit" class="btn btn-success">SUBMIT</button>
@@ -316,11 +313,15 @@
           <div class="col-lg-3 offset-lg-2">
             <div class="darkgreen text-center text-white">
               <img src="assets/images/map-marker.png" alt="map maker">
-              <p>
+              <p class="fontJost">
                 Jade and Company Pte Ltd<br/>
                 60 Albert Street, #14-01<br/>
                 Singapore 189969 <br/ >
-                <span class="ligthGreen">info@jade-company.com</span>
+                <span class="ligthGreen">
+                  <a href="mailto:info@jade-company.com">
+                    info@jade-company.com
+                  </a>
+                </span>
               </p>
             </div>
           </div>
@@ -328,6 +329,11 @@
         </div>
       </div>
     </section><!-- End Contact Section -->
+    <section id="copyright">
+      <div class="container text-center">
+        <p>Copyright © 2005-2021 Jade&Co</p>
+      </div>
+    </section>
 
   </main><!-- End #main -->
 
@@ -342,6 +348,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src='assets/js/jquery-3.6.0.min.js'></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 

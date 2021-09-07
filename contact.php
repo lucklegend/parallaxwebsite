@@ -14,8 +14,9 @@ require_once("mailer_class.php");
 // require_once("recaptchalib.php");
 
 // your secret key
-// secret Key = secret here jade-company
-$secret = "secret here";
+//jade-company
+
+$secret = "yoursecretkeys";
  
 // empty response
 $response = null;

@@ -287,3 +287,16 @@
   });
 
 })();
+
+$(document).ready(function(){
+  $('.marginbot100 input').focusin(function(){
+    $(this).siblings().children().css("color", '#5ecd78');
+    $(this).siblings().css("border-color", '#5ecd78');
+    $(this).css("border-color", '#5ecd78');
+  });
+  $('.marginbot100 input').focusout(function(){
+    $(this).siblings().children().css("color", '#118045');
+    $(this).siblings().css("border-color", '#118045');
+    $(this).css("border-color", '#118045');
+  });
+});

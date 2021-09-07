@@ -98,10 +98,11 @@
     top: 0px;
     z-index: 1000;
 }
-#headerSec li{
+#header div nav ul li a{
     font-family: 'Jost', sans-serif;
     font-size: 18px;
-    padding: 0px 35px;   
+    padding-left: 130px;
+    font-weight: 300;
 }
 #headerSec li a{
     color: #000;
@@ -117,37 +118,11 @@
 }
 /* end of Navbar */
 /* solutionsec */
-.z-index900{
-    z-index: 900;
-    position: absolute;
-    left:0;
-    top: 182px;
-    padding-left: 110px;
-    border-radius: .5em;
-    padding-top: 45px;
-    padding-bottom: 40px;
-    background-color: rgba(255, 255, 255, 0.75);
-}
-.bg-opacity-75 {
-    --bs-bg-opacity: 0.75;
-}
-.z-index100{
-    z-index: 100;
-    margin-top: 20px;
-}
+
 #solutionSec{
     margin-top: 115px;
 }
-#heroImage{
-    background: url('../images/Hero_image.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
-    border-radius: 1em;
-}
 #solModBox{
-    width: 910px;
     height: 558px;
     border-radius: .5em;
     position: absolute;
@@ -173,10 +148,18 @@
     font-weight: 300;
 }
 .btn-success {
-    background-color: #46A55C;
+    background-color: #128347;
+    padding: 10px 30px;
+}
+.btn-success:hover{
+    background-color: #128347;
+    border: 1px solid #128347;
+    box-shadow: 1px 1px 8px 3px rgba(255,255,255,0.5);
+    -webkit-box-shadow: 1px 1px 8px 3px rgba(255,255,255,0.5);
+    -moz-box-shadow: 1px 1px 8px 3px rgba(255,255,255,0.5);
 }
 #solution{
-    background: url('../images/solutionbg.jpg');
+    background: url('../images/solutionbg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,7 +174,7 @@
     margin-bottom: 2rem;
     font-family: 'Jost-SemiBold', sans-serif;
     font-size: 1.5em;
-    padding-left: 30px;
+    padding-left: 38px;
 }
 .bigFont{
     font-size:25px;
@@ -200,19 +183,23 @@
 }
 /* end of solutionsec */
 /* how it works */
-#simple{
-    background: url('../images/simple-steps.jpg ');
-    background-position: center;
+#simple .container{
+    background: url('../images/simple-steps3.png');
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     padding-bottom: 85px;
 }
 #simple h1{
     padding-top: 115px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
+.bg-gradient {
+    /* background: linear-gradient(178.4deg, #FFFFFF 0%, #EFEFEF 100%); */
+    background-color: #fafafa;
+  }
 .sec2{
-    margin-top: 35px;
+    margin-top: -42px;
 }
 .lastCircle{
     background-color: white;
@@ -221,7 +208,6 @@
 .lastCircle h4{
     padding-bottom: 30px;
 }
-
 #why{
     background: url('../images/BgWhyUs@1x.jpg ');
     background-position: top;
@@ -237,7 +223,7 @@
 #why p{
     padding: 0px 40px;
     font-family: 'Jost', sans-serif;
-    line-height: 1.5em;
+    line-height: 1.25em;
     font-size: 20px;
 }
 .why .box img{
@@ -253,11 +239,15 @@
 /* end how it works */
 #expertise{
     margin-top:-200px;
+    padding-bottom: 40px;
 }
 .greenBox{
     background-color: #128347;
     border-radius: .5em;
     padding: 55px 0px;
+    box-shadow: 0px 8px 33px 3px rgb(0 0 0 / 29%);
+    -webkit-box-shadow: 0px 8px 33px 3px rgb(0 0 0 / 29%);
+    -moz-box-shadow: 0px 8px 33px 3px rgba(0,0,0,0.29);
 }
 .greenBox h1{
     margin-top: 30px;
@@ -269,9 +259,9 @@
 }
 #about{
     background: url('../images/bgAboutUs@2x.png');
-    background-position: top;
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     padding-bottom: 305px;
 }
 #about h1{
@@ -294,31 +284,32 @@
 .contacttextbox{
     border: none;
     background: transparent;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #118045;
     border-radius: 0px;
     color: white!important;
 }
 span.contacttextbox{
-    color:#5FCE79!important;
+    color:#118045!important;
 }
 .contacttextbox:active, .contacttextbox:focus{
     background: transparent;
 }
+
 input::placeholder {
-    color: #fff;
-  }
+    color: #fff!important;
+}
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: white;
+    color: white!important;
     opacity: 1; /* Firefox */
-  }
+}
   
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: white;
-  }
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white!important;
+}
   
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: white;
-  }
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white!important;
+}
 
 .marginbot100{
     margin-bottom: 100px;
@@ -334,14 +325,85 @@ input::placeholder {
 .darkgreen p{
     line-height: 32px;
 }
+.darkgreen img{
+    width: auto;
+    height: 21px;
+    margin-bottom: 15px;
+}
 .spaceBond{
     height: 50px;
 }
 .ligthGreen{
     color:#54bd6e;
 }
+.ligthGreen a{
+    color:#54bd6e;
+}
+.ligthGreen a:hover{
+    color:#43d367;
+}
+input[type="text" i] {
+    color: white;
+}
+.marginbot100 input:focus{
+    border-color: green;
+}
+#copyright{
+    padding: 0px;
+}
+#copyright p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    color:#4B4B4B;
+}
+.z-index900{
+    border-radius: .5em;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+.bg-opacity-75 {
+    --bs-bg-opacity: 0.75;
+}
+.z-index100{
+    z-index: 100;
+    margin-top: 20px;
+}
+#hero{
+    background: url('../images/Hero_imageMerge.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    margin-top: 85px;
+}
+#hero .z-index900{
+    padding-top: 115px;
+}
+#hero .z-index100{
+    height: 17vh;
+}
+/* desktop and mobile integration */
+@media screen and (max-width: 1921px) {
+    .hero {
+        height: 100%;
+    }
+    #lastSimple{
+        margin-left: 37%;
+    }
+    #solution{
+        height: 49em;
+    }
+}
+@media screen and (max-width: 1601px) {
+    #solution{
+        height: 41em;
+    }
+}
+@media screen and (max-width: 1441px) {
 
-/* mobile integration */
+}
 @media screen and (max-width: 1367px) {
     #why p{
         font-size: 18px;
@@ -388,6 +450,11 @@ input::placeholder {
         line-height: 55px;
     }
 }
+@media screen and (max-width: 1025px) {
+    #header div nav ul li a {
+        padding-left: 80px;
+    }
+}
 @media screen and (max-width: 768px) {
     .z-index900 {
         position: inherit;
@@ -408,10 +475,14 @@ input::placeholder {
         padding: 0px 3px;
     }
     #lastSimple{
-        padding: 0px 25px;
+        padding: 0px 50px;
+        margin-left: 0;
     }
     .hero-p{
         width: 100%;
         padding-left: 10px;
+    }
+    #header div nav ul li a{
+        padding-left: 40px;
     }
   }
